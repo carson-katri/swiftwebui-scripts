@@ -13,6 +13,7 @@
     "command-exists": "^1.2.9",
     "commander": "^5.1.0",
     "node-fetch": "^2.6.0",
-    "param-case": "^3.0.3"
+    "param-case": "^3.0.3",
+    "yesno": "^0.3.1"
   }
 }
