@@ -6,8 +6,9 @@ Scripts to make working with [SwiftWebUI and WASM](https://github.com/carson-kat
 To make a new SwiftWebUI project, run:
 
 ```sh
-npx carson-katri/swiftwebui-scripts my-app
+npx carson-katri/swiftwebui-scripts create MyApp
 ```
+(use your Swift project naming scheme, not a node dash case. We'll convert it for you)
 
 Your project will be created in `my-app`.
 
