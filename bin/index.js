@@ -8,6 +8,7 @@ program.version(packagejson.version);
 
 program
     .command('create <name>')
+    .option('-O0', 'Disable optimization for the project.', false)
     .description('Create a new SwiftWebUI project.')
     .action(create);
 
